@@ -84,24 +84,32 @@ button{
 }
 
 .error,.success{
-  height:10px;
+  height:20px;
   text-align: center;
 }
 
 .success{
   font-family: Montserrat;
-  font-size: 10px;
+  font-size: 20px;
   font-size:normal;
   font-weight:700;
   line-height:normal;
-  color: green;
+  color:black;
 }
 
 .error{
   font-family: Montserrat;
-  font-size: 10px;
+  font-size: 20px;
   font-size:normal;
   font-weight:700;
   line-height:normal;
+}
+.red{
   color:red;
+}
+.green{
+  color: green;
+}
+.mess{
+  color:black;
 }

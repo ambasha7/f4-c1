@@ -53,8 +53,8 @@ const Calculator = () => {
                     <button onClick={multiply}>*</button>
                     <button onClick={divide}>/</button>
                 </div>
-                <div className="error">{error ? error : null}</div>
-                <div className="success">Result: {result != null ? result : null}</div>
+                <div className="error">{error ? (<p className="red">error:<p className="mess">{error}</p></p>)   : result !=null ? (<p className="green">success:</p>) :null}</div>
+                <div className="success"> {result != null ? (<p className="mess">Result:{result}</p>) : null}</div>
 
             </div>
         </div>
